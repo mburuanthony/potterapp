@@ -34,16 +34,8 @@ function DetailScreen({ route, navigation }) {
     if (isOK) {
       setcharacter(character);
       setissuccess(true);
-
-      setTimeout(() => {
-        setisvible(false);
-      }, 1200);
     } else {
       setissuccess(false);
-
-      setTimeout(() => {
-        setisvible(false);
-      }, 1200);
     }
 
     setissuccess(false);
@@ -154,7 +146,7 @@ const styles = StyleSheet.create({
   },
   image: {
     width: "100%",
-    height: 380,
+    height: 300,
     backgroundColor: colors.gray,
   },
   title: {
