@@ -1,4 +1,4 @@
-<h2 style='text-align:center;'>harry potter characters app</h2>
+<h2 align='center'>harry potter characters app</h2>
 
 ### clone
 
@@ -82,7 +82,7 @@ npx eas build --p android --release-channel release --profile production
 
 <br>
 
-<div style='display:flex; flex-direction:row; flex-wrap:wrap; align-items:center; justify-content:center; gap:8px;'>
+<div style='display:flex; flex-direction:row; flex-wrap:wrap; align:center; justify-content:center; gap:10px;'>
 <img src='https://user-images.githubusercontent.com/76121306/229055684-0e9bfc0d-6a45-4d0f-bc29-54eab3c8b24a.jpeg' width='20%'>
 
 <img src='https://user-images.githubusercontent.com/76121306/229055810-3c2b01a8-4924-48da-894f-d5cd71bdcb8b.jpeg' width='20%'>
@@ -91,3 +91,7 @@ npx eas build --p android --release-channel release --profile production
 
 <img src='https://user-images.githubusercontent.com/76121306/229056000-0eee8253-41a9-40eb-a35b-76906eabda79.jpeg' width='20%'>
 </div>
+
+<br>
+
+[mburuanthony](https://github.com/mburuanthony)
