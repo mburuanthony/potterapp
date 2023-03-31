@@ -2,29 +2,25 @@
   "expo": {
     "name": "potterapp",
     "slug": "potterapp",
+    "owner": "mburuantony",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/placeholder.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#rgba(217, 217, 217, 0.25)"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#rgba(217, 217, 217, 0.25)"
       }
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
     }
   }
 }
