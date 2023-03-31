@@ -21,30 +21,18 @@ function HomeScreen() {
     setisloading(true);
 
     const { isOK, data } = await getcharacters();
+    setisloading(false);
 
     if (isOK) {
       setcharacters(data);
-      setisloading(false);
-
       setissuccess(true);
-
-      setTimeout(() => {
-        setisvible(false);
-        setisloading(false);
-        setissuccess(false);
-      }, 1200);
     } else {
       setissuccess(false);
-
-      setTimeout(() => {
-        setisvible(false);
-        setisloading(false);
-        setissuccess(false);
-      }, 1200);
     }
 
     setisvible(false);
     setisloading(false);
+    setissuccess(false);
   };
 
   const onRefresh = useCallback(() => {
