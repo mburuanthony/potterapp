@@ -35,10 +35,10 @@ use the EAS cli to build the app, APK for testing and AAB for submission to the 
 npm install --global eas-cli
 
 # 2. Build APK preview file
-eas build -p android --profile preview
+npx eas build -p android --profile preview
 
 # or build a production ready Android App Bundle
-npx eas build --platform android --release-channel release --profile production
+npx eas build --p android --release-channel release --profile production
 ```
 
 <br>
