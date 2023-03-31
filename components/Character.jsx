@@ -13,7 +13,7 @@ let deviceWidth = Dimensions.get("window").width;
 let deviceHeight = Dimensions.get("window").height;
 let placeholderimg = require("../assets/placeholder.png");
 
-export const Character = ({ charUid, charName, imgUri, onclickfunc }) => {
+export const Character = ({ charUid, charName, imgUri }) => {
   const navigation = useNavigation();
   const gotodetail = () =>
     navigation.navigate("detail", {
