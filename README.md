@@ -41,6 +41,45 @@ npx eas build -p android --profile preview
 npx eas build --p android --release-channel release --profile production
 ```
 
+```js
+// EAS JSON config
+{
+  "cli": {
+    "version": ">= 3.6.0"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "ios": {
+        "resourceClass": "m1-medium"
+      }
+    },
+    "preview": {
+      // buildtype APK
+      "android": {
+        "buildType": "apk"
+      },
+      "ios": {
+        "resourceClass": "m1-medium"
+      }
+    },
+    "release": {
+      // buildtype AAB
+      "releaseChannel": "release"
+    },
+    "production": {
+      "ios": {
+        "resourceClass": "m1-medium"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
+```
+
 <br>
 
 <div style='display:flex; flex-direction:row; flex-wrap:wrap; align-items:center; justify-content:center; gap:8px;'>
