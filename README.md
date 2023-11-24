@@ -91,6 +91,4 @@ npx eas build --p android --release-channel release --profile production
 
 <br>
 
-[GET THE APK](https://github.com/mburuanthony/potterapp/blob/main/application-7d75e012-85ae-429c-85c3-d6d62026bb05.apk)
-
 [mburuanthony](https://github.com/mburuanthony)
